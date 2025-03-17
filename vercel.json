@@ -4,5 +4,6 @@
     "ENABLE_EXPERIMENTAL_COREPACK": "1"
   },
   "ignoreCommand": "pnpm -v && exit 1",
-  "buildCommand": "pnpm -v && cd ../../ && pnpm turbo build --filter=web..."
+  "buildCommand": "pnpm -v && cd ../../ && pnpm turbo build --filter=web...",
+  "installCommand": "pnpm -v && pnpm install"
 }
